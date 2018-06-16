@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RLETestComp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/RLETestComp.res" /d "NDEBUG" /d "_AFXDLL" "Z:\WORK\ALAINPETIT\CODE\COMPTEST\RLETestComp.rc"" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP63.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\arithm.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\DxRender.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\MyWindow.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\RLETestComp.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\RLETestCompDlg.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\w32Window.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\zip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP63.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RLETestComp.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP64.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+dxguid.lib ddraw.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/RLETestComp.pdb" /machine:I386 /out:"Release/RLETestComp.exe" 
+.\Release\arithm.obj
+.\Release\dmc.obj
+.\Release\DxRender.obj
+.\Release\lbe.obj
+.\Release\MyWindow.obj
+.\Release\RLETestComp.obj
+.\Release\RLETestCompDlg.obj
+.\Release\StdAfx.obj
+.\Release\w32Window.obj
+.\Release\zip.obj
+.\Release\RLETestComp.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP65.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+arithm.cpp
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\arithm.cpp(73) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\arithm.cpp(78) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\arithm.cpp(94) : warning C4101: 'i' : unreferenced local variable
+dmc.cpp
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(49) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(122) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(177) : warning C4305: '=' : truncation from 'const double' to 'float'
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(178) : warning C4305: '=' : truncation from 'const double' to 'float'
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(183) : warning C4305: '=' : truncation from 'const double' to 'float'
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(184) : warning C4305: '=' : truncation from 'const double' to 'float'
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp(208) : warning C4101: 'r' : unreferenced local variable
+DxRender.cpp
+lbe.cpp
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(12) : warning C4091: 'typedef ' : ignored on left of 'struct CompressionData' when no variable is declared
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(132) : warning C4101: 'id' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(193) : warning C4101: 'temp' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(198) : warning C4101: 'track1' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(196) : warning C4101: 'dbuf' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(286) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(286) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(287) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(287) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(285) : warning C4101: 'in' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(327) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(327) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(328) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(328) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(326) : warning C4101: 'in' : unreferenced local variable
+MyWindow.cpp
+RLETestComp.cpp
+RLETestCompDlg.cpp
+w32Window.cpp
+zip.cpp
+Generating Code...
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(345) : warning C4700: local variable 't' used without having been initialized
+Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp(345) : warning C4700: local variable 'h' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+RLETestComp.exe - 0 error(s), 27 warning(s)
+<h3>
+--------------------Configuration: RLETestComp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/RLETestComp.res" /d "_DEBUG" /d "_AFXDLL" "Z:\WORK\ALAINPETIT\CODE\COMPTEST\RLETestComp.rc"" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP67.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\arithm.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\dmc.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\DxRender.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\lbe.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\MyWindow.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\RLETestComp.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\RLETestCompDlg.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\w32Window.cpp"
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\zip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP67.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RLETestComp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\WORK\ALAINPETIT\CODE\COMPTEST\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP68.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+dxguid.lib ddraw.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RLETestComp.pdb" /debug /machine:I386 /out:"Debug/RLETestComp.exe" /pdbtype:sept 
+.\Debug\arithm.obj
+.\Debug\dmc.obj
+.\Debug\DxRender.obj
+.\Debug\lbe.obj
+.\Debug\MyWindow.obj
+.\Debug\RLETestComp.obj
+.\Debug\RLETestCompDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\w32Window.obj
+.\Debug\zip.obj
+.\Debug\RLETestComp.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP69.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+arithm.cpp
+z:\work\alainpetit\code\comptest\arithm.cpp(73) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+z:\work\alainpetit\code\comptest\arithm.cpp(78) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+z:\work\alainpetit\code\comptest\arithm.cpp(94) : warning C4101: 'i' : unreferenced local variable
+dmc.cpp
+z:\work\alainpetit\code\comptest\dmc.cpp(49) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+z:\work\alainpetit\code\comptest\dmc.cpp(122) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+z:\work\alainpetit\code\comptest\dmc.cpp(177) : warning C4305: '=' : truncation from 'const double' to 'float'
+z:\work\alainpetit\code\comptest\dmc.cpp(178) : warning C4305: '=' : truncation from 'const double' to 'float'
+z:\work\alainpetit\code\comptest\dmc.cpp(183) : warning C4305: '=' : truncation from 'const double' to 'float'
+z:\work\alainpetit\code\comptest\dmc.cpp(184) : warning C4305: '=' : truncation from 'const double' to 'float'
+z:\work\alainpetit\code\comptest\dmc.cpp(208) : warning C4101: 'r' : unreferenced local variable
+DxRender.cpp
+lbe.cpp
+z:\work\alainpetit\code\comptest\lbe.cpp(12) : warning C4091: 'typedef ' : ignored on left of 'struct CompressionData' when no variable is declared
+z:\work\alainpetit\code\comptest\lbe.cpp(132) : warning C4101: 'id' : unreferenced local variable
+z:\work\alainpetit\code\comptest\lbe.cpp(193) : warning C4101: 'temp' : unreferenced local variable
+z:\work\alainpetit\code\comptest\lbe.cpp(198) : warning C4101: 'track1' : unreferenced local variable
+z:\work\alainpetit\code\comptest\lbe.cpp(196) : warning C4101: 'dbuf' : unreferenced local variable
+z:\work\alainpetit\code\comptest\lbe.cpp(286) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(286) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(287) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(287) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(285) : warning C4101: 'in' : unreferenced local variable
+z:\work\alainpetit\code\comptest\lbe.cpp(327) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(327) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(328) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(328) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+z:\work\alainpetit\code\comptest\lbe.cpp(326) : warning C4101: 'in' : unreferenced local variable
+MyWindow.cpp
+RLETestComp.cpp
+RLETestCompDlg.cpp
+w32Window.cpp
+zip.cpp
+Generating Code...
+z:\work\alainpetit\code\comptest\lbe.cpp(345) : warning C4700: local variable 't' used without having been initialized
+z:\work\alainpetit\code\comptest\lbe.cpp(345) : warning C4700: local variable 'h' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+RLETestComp.exe - 0 error(s), 27 warning(s)
+</pre>
+</body>
+</html>
