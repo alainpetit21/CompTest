@@ -1,4 +1,4 @@
-PSMapMaker
+CompTest
 
 Description :
 Little MFC App developped to test several compression algorithms and a multhithreaded windowing management. 
